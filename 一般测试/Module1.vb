@@ -3,8 +3,7 @@ Module Module1
 
     Sub Main()
         Dim a As New Regex("def?")
-        Console.WriteLine(a.Match("ddddecffffff"))
-        Console.WriteLine("第二次修改")
+        Console.WriteLine(a.Match("ddddecfffff"))
         Console.ReadLine()
 
     End Sub
